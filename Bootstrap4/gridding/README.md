@@ -1,4 +1,4 @@
-[返回](Bootstrap4/README.md)
+[返回](Spider-ManB/README.md)
 ***
 ## 网格系统
 
@@ -19,13 +19,13 @@
 - Bootstrap 4 网格的基本结构
 
    - 创建一行
-   - (```)<div class="row"> <div class="col-*-*"></div></div>(```)
+   > <div class="row"> <div class="col-*-*"></div></div>
    - col-*-* 第一个星号 (*) 表示响应的设备: sm, md, lg 或 xl, 
    - 第二个星号 (*) 表示一个数字, 同一行的数字相加为 12。
    - 不在每个 col 上添加数字，让 bootstrap 自动处理布局，同一行的每个列宽度相等： 
    - 两个 "col" ，每个就为 50% 的宽度
    - 三个 "col"每个就为 33.33% 的宽度
-   (```)<div class="col"></div> (```)
+   > <div class="col"></div>  
 
 - 偏移列
   - 偏移列通过 offset-*-* 类来设置。
@@ -37,4 +37,4 @@
 
 
 ***
-[返回](Bootstrap4/README.md)
+[返回](Spider-ManB/README.md)
