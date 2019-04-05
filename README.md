@@ -14,7 +14,7 @@
 - [Bootstrap4 表单控件](Bootstrap4/form-controls/README.md)
 - [Bootstrap4 表单](Bootstrap4/form-menu/README.md)
 - [Bootstrap4 小工具](Bootstrap4/gadget/README.md)
-- [Bootstrap4 输入框组](Bootstrap4/input-box-set/README.md)
+- [Bootstrap4 输入框组](Bootstrap4/Input-box-set/README.md)
 - [Bootstrap4 Jumbotron](Bootstrap4/Jumbotron/README.md)
 - [Bootstrap4 列表组](Bootstrap4/list-of-groups/README.md)
 - [Bootstrap4 信息提示框](Bootstrap4/Message-prompt/README.md)
