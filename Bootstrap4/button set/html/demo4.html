@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>按钮组按钮内嵌菜单</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+      <h2>按钮组按钮内嵌菜单</h2>
+      <p>为按钮设置 dropdown-toggle类 和data-toggle="dropdown"属性 </p>
+      <p>再为div设置 .dropdown-menu类 </p>
+      <p>再为a标签设置.dropdown-item类</p>
+ <div class="btn-group btn-group-lg">
+<button type="button" class="btn btn-primary"> this</button>
+<button type="button" class="btn btn-primary" > is</button>
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> button</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">The first option</a>
+<a class="dropdown-item" href="#">Another option</a>
+</div>
+ </div>

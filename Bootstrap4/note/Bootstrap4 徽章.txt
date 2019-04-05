@@ -1,0 +1,7 @@
+Bootstrap4 徽章（Badges）
+  徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，
+  只需要将 .badge 类加上带有指定意义的颜色类 (如 .badge-secondary) 添加到 <span> 元素上即可。 
+  徽章可以根据父元素的大小的变化而变化
+  徽章的颜色可以根据bootstrap定义的颜色类设定
+  .badge-pill类来设置药丸形状的徽章
+  徽章可以嵌入到元素内

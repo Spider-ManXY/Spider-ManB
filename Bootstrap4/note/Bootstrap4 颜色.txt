@@ -1,0 +1,9 @@
+Bootstrap4 颜色
+  Bootstrap 4 提供了一些有代表意义的颜色类：.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, 
+              .text-secondary, .text-white, .text-dark and .text-light
+
+
+背景颜色
+提供背景颜色的类有: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark 和 .bg-light。
+
+注意背景颜色不会设置文本的颜色，在一些实例中你需要与 .text-* 类一起使用。

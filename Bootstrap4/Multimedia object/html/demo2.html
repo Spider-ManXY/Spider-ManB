@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>多媒体对象嵌套</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+  img{
+    width: 80px;
+    height: 60px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>多媒体对象</h2>
+    <p>要嵌套多媒体对象，可以把新的 .media 容器放到 .media-body 容器中</p>
+    <p>如果你想将头像图片显示在右侧，可以在 .media-body 容器后添加图片</p>
+    <div class="media">
+    <img src="../../navigation bar/img/1.gif" alt="图片" class="rounded-circle w-60">
+    <div class="media-body">
+      <h4>菜鸟教程</h4>
+      <p>学习不仅仅是技术，更是梦想！！</p>
+      
+      <div class="media">
+        
+          <div class="media-body">
+            <h4>菜鸟教程</h4>
+            <p>学习不仅仅是技术，更是梦想！！</p>
+          </div>
+          <img src="../../navigation bar/img/1.gif" alt="图片" class="rounded-0 w-60">
+        </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Bootstrap4 分页
+ 要创建一个基本的分页可以在 <ul> 元素上添加 .pagination 类。
+ 然后在 <li> 元素上添加 .page-item 类
+
+当前页页码状态
+   当前页选中状态可以使用.active类来高亮显示
+
+不可点击的分页链接
+    .disabled 类可以设置分页链接不可点击
+
+分页显示的大小
+可以将分页条目设置为不同的大小。
+
+ .pagination-lg 类设置大字体的分页条目，
+ .pagination-sm 类设置小字体的分页条目
+
+面包屑导航
+.breadcrumb 和 .breadcrumb-item 类用于设置面包屑导航
+

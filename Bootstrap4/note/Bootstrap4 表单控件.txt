@@ -1,0 +1,28 @@
+Bootstrap4 表单控件
+  Bootstrap4 支持以下表单控件
+   input
+   textarea
+   checkbox
+   radio
+   select
+
+Bootstrap Input
+   Bootstrap 支持所有的 HTML5 输入类型: text, password, datetime, datetime-local, date, 
+   month, time, week, number, email, url, search, tel, 以及 color。
+
+   注意：: 如果 input 的 type 属性未正确声明，输入框的样式将不会显示
+
+Bootstrap textarea
+
+<div class="form-group">
+  <label for="comment">评论:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+Bootstrap 复选框(checkbox)
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 
+  </label>
+</div>
+使用 .form-check-inline 类可以让选项显示在同一行上

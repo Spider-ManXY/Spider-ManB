@@ -1,0 +1,16 @@
+Bootstrap4 卡片
+   .card与.card-body类创建一个简单的卡片
+   .card-header类用于创建卡片的头部样式
+   .card-footer类用于创建卡片的底部样式
+多种卡片的背景颜色类： .bg-primary, .bg-success, .bg-info, .bg-warning, 
+                      .bg-danger, .bg-secondary, .bg-dark 和 .bg-light。
+
+卡片中的标题 文本 和链接
+    .card-title 标题
+    .card-text  文本
+    .card-link  链接
+
+图片卡片
+   我们可以给 <img> 添加 .card-img-top（图片在文字上方） 
+   或 .card-img-bottom（图片在文字下方 来设置图片卡片
+   如果图片要设置为背景，可以使用 .card-img-overlay 类

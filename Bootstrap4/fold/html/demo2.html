@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>href代替data-target</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+   <h1>href代替data-target</h1>
+   <a role="button" class="btn btn-primary" href="#demo" data-toggle="collapse">
+     展开与折叠
+   </a>
+   <div id="demo" class="collapse">
+    .collapse 类用于指定一个折叠元素 (实例中的 div); 点击按钮后会在隐藏与显示之间切换。
+
+    控制内容的隐藏与显示，需要在 a 或 button元素上添加 data-toggle="collapse" 属性。 data-target="#id" 属性是对应折叠的内容 (div id="demo")。
+    
+    注意: a 元素上你可以使用 href 属性来代替 data-target 属性
+   </div>
+  </div>
+</body>
+</html>

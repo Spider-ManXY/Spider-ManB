@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>自定义上传文件样式</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>自定义上传文件样式</h2>
+    <p>我们可以在父元素添加 .custom-file 类，然后在 input 设置为 type="file" 并添加 .custom-file-input:
+
+        上传控件的文本使用 label 标签，标签使用 .custom-file-label 类，label 的 for 属性值需要匹配复选框的 id</p>
+   <div class="custom-file">
+    <form>
+      <label for="i"  class="custom-file-label">自定义上传文件样式</label>
+      <input type="file" id="i" class="custom-file-input"><br>
+      <label for="d">默认上传文件样式</label>
+      <input type="file" id="d" >
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>

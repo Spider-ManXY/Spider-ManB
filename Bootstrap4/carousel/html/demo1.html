@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>轮播实例</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<style>
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+
+</style>
+
+
+</head>
+<body>
+  <div id="demo" class="carousel side" data-ride="carousel">
+  <!-- 指示符 -->
+<ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1" ></li>
+  <li data-target="#demo" data-slide-to="2" ></li>
+</ul>
+<!-- 轮播图片 -->
+<!-- 添加要切换的图片 -->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="../img/3.jpg">
+<!-- 给图片加上标签内容 -->
+    <div class="carousel-caption">
+        <h2>路飞</h2>
+      </div>
+
+  </div>
+  <div class="carousel-item ">
+      <img src="../img/4.jpg">
+      <div class="carousel-caption">
+        <h2>桔梗</h2>
+      </div>
+    </div>
+    <div class="carousel-item ">
+        <img src="../img/8.jpg">
+        <div class="carousel-caption">
+            <h2>兰博基尼</h2>
+          </div>
+      </div>
+</div>
+<!-- 左右切换按钮 -->
+<!-- 添加左侧按钮 -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<!-- 添加右侧按钮 -->
+<a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+</body>
+</html>

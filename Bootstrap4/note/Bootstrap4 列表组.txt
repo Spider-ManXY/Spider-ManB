@@ -1,0 +1,16 @@
+Bootstrap4 列表组
+   大部分基础列表组都是无序的
+   要创建列表组，可以在 <ul> 元素上添加 
+   .list-group 类, 在 <li> 元素上添加 
+   .list-group-item 类
+列表组的激活与禁用
+   .active类激活
+   .disabled类激活
+
+链接列表项
+要创建一个链接的列表项，可以将 <ul> 替换为 <div> ， <a> 替换 <li>。
+如果你想鼠标悬停显示灰色背景就添加.list-group-item-action 类
+
+列表项目的颜色可以通过以下列来设置： .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, 
+.list-group-item-danger, list-group-item-dark 和 list-group-item-light
+

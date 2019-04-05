@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>指定子元素对齐</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>指定子元素对齐</h2>
+  <p>如果要设置指定子元素对齐对齐可以使用 .align-self-* 类来控制，包含的值有：.align-self-start, .align-self-end, 
+    .align-self-center, .align-self-baseline, 和 .align-self-stretch (默认)</p>
+ <p>.align-self-start</p>
+    <div class="d-flex bg-light" style="height:150px">
+    <div class="p-2 border">Flex item 1</div>
+    <div class="p-2 align-self-start border">Flex item 2</div>
+    <div class="p-2 border">Flex item 3</div>
+  </div>
+  <br>
+  <p>.align-self-end</p>
+  <div class="d-flex  bg-light" style="height:150px">
+    <div class="p-2 border">Flex item 1</div>
+    <div class="p-2 align-self-end border">Flex item 2</div>
+    <div class="p-2 border">Flex item 3</div>
+  </div>
+  <br>
+  <p>.align-self-center:</p>
+  <div class="d-flex  bg-light" style="height:150px">
+    <div class="p-2 border">Flex item 1</div>
+    <div class="p-2 align-self-center border">Flex item 2</div>
+    <div class="p-2 border">Flex item 3</div>
+  </div>
+  <br>
+  <p>.align-self-baseline:</p>
+  <div class="d-flex  bg-light" style="height:150px">
+    <div class="p-2 border">Flex item 1</div>
+    <div class="p-2 align-self-baseline border">Flex item 2</div>
+    <div class="p-2 border">Flex item 3</div>
+  </div>
+  <br>
+  <p>.align-self-stretch (默认):</p>
+  <div class="d-flex  bg-light" style="height:150px">
+    <div class="p-2 border">Flex item 1</div>
+    <div class="p-2 align-self-stretch border">Flex item 2</div>
+    <div class="p-2 border">Flex item 3</div>
+  </div>
+  <br>
+</div>
+
+</body>
+</html>

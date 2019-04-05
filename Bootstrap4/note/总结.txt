@@ -1,0 +1,239 @@
+Bootstrap4 网格系统
+   .col- 针对所有设备
+   .col-sm- 平板 - 屏幕宽度等于或大于 576px
+   .col-md- 桌面显示器 - 屏幕宽度等于或大于 768px)
+   .col-lg- 大桌面显示器 - 屏幕宽度等于或大于 992px)
+   .col-xl- 超大桌面显示器 - 屏幕宽度等于或大于 1200px)
+
+Bootstrap 4 默认设置
+ small 字号小颜色浅的字体 用于副标题
+ mark  黄色背景有一定内边距的高亮文本
+ abbr  样式为文本底部有一条虚线 用于缩写
+ blockquote的blockquote类  引用文本的样式
+ footer的blockquote-footer类  引用页脚的样式
+ <dl><dt><dd></dl></dt></dd>   定义列表
+ code   红色强调文本样式
+ kbd    黑色背景的键盘样式
+ pre    保留文本的格式 原样输出
+更多排版类
+ .font-weight-bold	加粗文本
+ .font-weight-normal	普通文本
+ .font-weight-light	更细的文本
+ .font-italic	        斜体文本
+ .lead	                让段落更突出
+ .small	                指定更小文本 (为父元素的 85% )
+ .text-left	        左对齐
+ .text-center	        居中
+ .text-right	        右对齐
+ .text-justify	        设定文本对齐,段落中超出屏幕部分文字自动换行
+ .text-nowrap	        段落中超出屏幕部分不换行 
+ .text-lowercase	设定文本小写
+ .text-uppercase	设定文本大写
+ .text-capitalize	设定单词首字母大写
+ .initialism	        显示在 <abbr> 元素中的文本以小号字体展示，且可以将小写字母转换为大写字母
+ .list-unstyled	        移除默认的列表样式，列表项中左对齐 ( <ul> 和 <ol> 中)。 这个类仅适用于直接子列表项 
+                        (如果需要移除嵌套的列表项，你需要在嵌套的列表中使用该样式)
+ .list-inline	        将所有列表项放置同一行
+ .pre-scrollable	使 <pre> 元素可滚动，代码块区域最大高度为340px,一旦超出这个高度,就会在Y轴出现滚动条
+ 
+Bootstrap4 颜色
+  文本颜色 .text-muted, .text-primary, .text-success, 
+           .text-info, .text-warning, .text-danger, .text-secondary, 
+           .text-white, .text-dark and .text-light
+  背景颜色 .bg-primary, .bg-success, .bg-info, .bg-warning, 
+           .bg-danger, .bg-secondary, .bg-dark 和 .bg-light
+
+Bootstrap4 表格
+表格样式
+   .table 基础表格
+   .table-striped 条纹表格
+   .table-bordered 带边框表格
+   .table-hover  鼠标悬停状态表格
+   .table-dark  黑色背景表格
+表格颜色
+   .table-primary	蓝色: 指定这是一个重要的操作
+   .table-success	绿色: 指定这是一个允许执行的操作
+   .table-danger	红色: 指定这是可以危险的操作
+   .table-info	浅蓝色: 表示内容已变更
+   .table-warning	橘色: 表示需要注意的操作
+   .table-active	灰色: 用于鼠标悬停效果
+   .table-secondary	灰色: 表示内容不怎么重要
+   .table-light	浅灰色，可以是表格行的背景
+   .table-dark	深灰色，可以是表格行的背景
+表头颜色
+   .thead-dark
+小表格
+   .table-sm
+响应式表格
+   .table-responsive-sm	
+   .table-responsive-md	
+   .table-responsive-lg	
+   .table-responsive-xl
+   
+
+Bootstrap4 图像形状
+   .rounded   圆角图片
+   .rounded-circle 椭圆图片
+   .img-thumbnail  缩略图
+   .float-right    图片右对齐
+   .float-left     图片左对齐
+   .img-fluid      响应式图片
+
+Bootstrap4 Jumbotron
+     .jumbotron 灰色背景框
+     .jumbotron-fluid  没有圆角的灰色背景框
+
+Bootstrap4 信息提示框
+   .alert-*  *表示颜色
+   .alert-link 提示框添加链接
+   .alert-dismissible 关闭提示框
+   .fade  淡出动画效果
+   .show  淡入动画效果
+
+Bootstrap4 按钮
+   .btn 基本按钮 可用于 <a>, <button>, 或 <input> 元素上
+   .btn-* *表示颜色
+   .btn-outline-* 设置边框颜色
+   .btn-lg 大号按钮  .btn-sm 小号按钮
+   .btn-block 块级按钮
+   .active 激活按钮 .disabled 禁用按钮
+
+Bootstrap4 按钮组
+   .btn-group 创建按钮组
+   .btn-group-lg|sm 设置按钮组的大小
+   .btn-group-vertical 创建垂直的按钮组
+   .dropdown-toggle" data-toggle="dropdown" 按钮内嵌下拉菜单
+   .dropdown-toggle-split  拆分按钮内嵌的下拉菜单
+
+Bootstrap4 徽章（Badges）
+   .badge 创建徽章
+   .badge-* 各种颜色的徽章
+   .badge-pill 药丸形状徽章
+
+Bootstrap4 进度条
+   .progress 创建一个进度条
+   .progress-bar style="width:70%" 设置一个有进度的进度条  style 为进度
+    style="height:20px;" 进度条高度
+   .progress-bar-striped 类来设置条纹进度条
+   .progress-bar-animated 类可以为进度条添加动画
+   .bg-*  设置进度条颜色
+
+Bootstrap4 分页
+   .pagination  .page-item .page-link 创建分页
+   .active 页码激活
+   .disabled 页码禁用
+   .pagination-lg 类设置大字体的分页条目 
+   .pagination-sm 类设置小字体的分页条目
+   .breadcrumb 和 .breadcrumb-item 类用于设置面包屑导航
+
+Bootstrap4 列表组
+   .list-group  .list-group-item  创建列表组
+   .active 激活列表项
+   .disabled 禁用列表项
+   .list-group-item-action 鼠标悬停显示灰色背景
+   .list-group-item-*  设置颜色
+
+Bootstrap4 卡片
+  .card .card-body 创建卡片
+  .card-header类用于创建卡片的头部样式 
+  .card-footer 类用于创建卡片的底部样式
+  .bg-* 设置颜色
+  .card-title 类来设置卡片的标题  
+  .card-text 类用于设置卡片正文的内容
+  .card-link 类用于给链接设置颜色
+   <img> 添加 .card-img-top 图片在文字上方 
+  .card-img-bottom 图片在文字下方
+  .card-img-overlay 图片设置为背景
+
+Bootstrap4 下拉菜单
+   .dropdown 类用来指定一个下拉菜单。
+
+   我们可以使用一个按钮或链接来打开下拉菜单， 按钮或链接需要添加 .dropdown-toggle 和 data-toggle="dropdown" 属性。
+
+   <div> 元素上添加 .dropdown-menu 类来设置实际下拉菜单，然后在下拉菜单的选项中添加 .dropdown-item 类
+
+  .dropdown-divider 类用于在下拉菜单中创建一个水平的分割线
+  .dropdown-header 类用于在下拉菜单中添加标题
+  .active 激活选项
+  .disabled 禁用选项
+  .dropdown-menu-right 下拉菜单右对齐
+  .dropup  下拉菜单向上弹出
+
+Bootstrap4 折叠
+  需要在 <a> 或 <button> 元素上添加 data-toggle="collapse" 属性。 
+  data-target="#id" 属性是对应折叠的内容
+  <a> 元素上你可以使用 href 属性来代替 data-target 属性
+  .show 内容默认显示
+  data-parent 属性来确保所有的折叠元素在指定的父元素下，这样就能实现在一个折叠选项显示时其他选项就隐藏
+   
+Bootstrap4 导航
+   如果你想创建一个简单的水平导航栏，可以在 <ul> 元素上添加 .nav类，在每个 <li> 选项上添加 .nav-item 类，在每个链接上添加 .nav-link 类
+  .justify-content-center 类设置导航居中显示
+  .justify-content-end 类设置导航右对齐
+  .flex-column 类用于创建垂直导航
+  .nav-tabs 类 选项卡导航样式
+  .nav-pills 类 胶囊导航样式
+  .nav-justified 类可以设置导航项齐行等宽显示
+
+Bootstrap4 导航栏
+    我们可以使用 .navbar 类来创建一个标准的导航栏，后面紧跟: .navbar-expand-xl|lg|md|sm 类来创建响应式的导航栏 (大屏幕水平铺开，小屏幕垂直堆叠)。
+
+    导航栏上的选项可以使用 <ul> 元素并添加 class="navbar-nav" 类。 然后在 <li> 元素上添加 .nav-item 类， <a> 元素上使用 .nav-link 类:
+    
+    通过删除 .navbar-expand-xl|lg|md|sm 类来创建垂直导航栏
+    .bg-*  设置背景颜色
+    .navber-* 设置文本颜色
+    .active 激活
+    .disabled 禁用
+    .navbar-brand 类用于高亮显示品牌/Logo
+    .navbar-brand 类来设置图片自适应导航栏
+    要创建折叠导航栏，可以在按钮上添加 class="navbar-toggler", data-toggle="collapse" 与 data-target="#thetarget" 类。然后在设置了 class="collapse navbar-collapse" 类的 div 上包裹导航内容（链接）, 
+    div 元素上的 id 匹配按钮 data-target 的上指定的 id
+    导航栏的表单 <form> 元素使用 class="form-inline" 类来排版输入框与按钮
+    你也可以使用其他的输入框类，如 .input-group-addon 类用于在输入框前添加小标签
+    .navbar-text 类来设置导航栏上非链接文本，可以保证水平对齐，颜色与内边距一样   
+    .fixed-top 类来实现导航栏的固定
+    .fixed-bottom 类用于设置导航栏固定在底部
+
+Bootstrap4 表单控件 
+   .form-group
+   .form-control
+   .form-check .form-check-label .form-check-input 复选框
+   .form-check-inline 类可以让选项（复选）显示在同一行上
+   .radio
+   .radio-inline 类可以让选项显示在同一行上
+
+Bootstrap4 输入框组
+   我们可以使用 .input-group 类来向表单输入框中添加更多的样式，如图标、文本或者按钮。
+
+   使用 .input-group-prepend 类可以在输入框的的前面添加文本信息， .input-group-append 类添加在输入框的后面。
+ 
+   最后，我们还需要使用 .input-group-text 类来设置文本的样式
+   .input-group-sm 类来设置小的输入框
+   .input-group-lg 类设置大的输入框
+
+
+Bootstrap4 轮播
+   .carousel	创建一个轮播
+   .carousel-indicators	为轮播添加一个指示符，就是轮播图底下的一个个小点，轮播的过程可以显示目前是第几张图。
+   .carousel-inner	添加要切换的图片
+   .carousel-item	指定每个图片的内容
+   .carousel-control-prev	添加左侧的按钮，点击会返回上一张。
+   .carousel-control-next	添加右侧按钮，点击会切换到下一张。
+   .carousel-control-prev-icon	与 .carousel-control-prev 一起使用，设置左侧的按钮
+   .carousel-control-next-icon	与 .carousel-control-next 一起使用，设置右侧的按钮
+   .slide	切换图片的过渡和动画效果，如果你不需要这样的效果，可以删除这个类。
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

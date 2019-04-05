@@ -1,0 +1,108 @@
+Bootstrap 4 Flex（弹性）布局
+   使用 d-flex 类创建一个弹性盒子容器
+   创建显示在同一行上的弹性盒子容器可以使用 d-inline-flex 类
+
+水平方向
+  .flex-row 可以设置弹性子元素水平显示，这是默认的。
+
+  使用 .flex-row-reverse 类用于设置右对齐显示，即与 .flex-row 方向相反 
+
+垂直方向
+  .flex-column 类用于设置弹性子元素垂直方向显示  
+  .flex-column-reverse 用于翻转子元素
+
+内容排列
+  .justify-content-* 类用于修改弹性子元素的排列方式
+  * 号允许的值有：start (默认), end, center, between 或 around
+
+等宽
+  .flex-fill 类强制设置各个弹性子元素的宽度是一样的
+
+扩展
+ .flex-grow-1 用于设置子元素使用剩下的空间
+ .flex-shrink-1 用于设置子元素的收缩规则
+
+排序
+ .order 类可以设置弹性子元素的排序，从 .order-1 到 .order-12
+ 数字越低权重越高( .order-1 排在 .order-2 之前) 
+
+包裹
+  弹性容器中包裹子元素可以使用以下三个类： 
+  .flex-nowrap (默认), .flex-wrap 或 .flex-wrap-reverse
+  设置 flex 容器是单行或者多行
+
+内容对齐
+  我们可以使用 .align-content-* 来控制在垂直方向上如何去堆叠子元素，
+  包含的值有：.align-content-start (默认), .align-content-end, 
+  .align-content-center, .align-content-between, 
+  .align-content-around  .align-content-stretch。
+
+  这些类在只有一行的弹性子元素中是无效的
+
+子元素对齐
+   如果要设置单行的子元素对齐可以使用 .align-items-* 类来控制，
+   包含的值有：.align-items-start, .align-items-end, 
+   .align-items-center, .align-items-baseline, 和 
+   .align-items-stretch (默认)
+
+指定子元素对齐
+  如果要设置指定子元素对齐对齐可以使用 .align-self-* 类来控制，
+  包含的值有：.align-self-start, .align-self-end, 
+  .align-self-center, .align-self-baseline, 和 
+  .align-self-stretch (默认)
+
+
+
+响应式 flex 类
+我们可以根据不同的设备，设置 flex 类，
+从而实现页面响应式布局，以下表格中的 * 号可以的值有：sm, md, lg 或 xl, 
+对应的是小型设备、中型设备，大型设备，超大型设备。
+
+弹性容器
+.d-*-flex	根据不同的屏幕设备创建弹性盒子容器	
+.d-*-inline-flex	根据不同的屏幕设备创建行内弹性盒子容器	
+方向
+.flex-*-row	根据不同的屏幕设备在水平方向显示弹性子元素	
+.flex-*-row-reverse	根据不同的屏幕设备在水平方向显示弹性子元素，且右对齐	
+.flex-*-column	根据不同的屏幕设备在垂直方向显示弹性子元素	尝试一下
+.flex-*-column-reverse	根据不同的屏幕设备在垂直方向显示弹性子元素，且方向相反	
+内容对齐
+.justify-content-*-start	根据不同屏幕设备在开始位置显示弹性子元素 (左对齐)	
+.justify-content-*-end	根据不同屏幕设备在尾部显示弹性子元素 (右对齐)	
+.justify-content-*-center	根据不同屏幕设备在 flex 容器中居中显示子元素	
+.justify-content-*-between	根据不同屏幕设备使用 "between" 显示弹性子元素	
+.justify-content-*-around	根据不同屏幕设备使用 "around" 显示弹性子元素	
+等宽
+.flex-*-fill	根据不同的屏幕设备强制等宽	
+扩展
+.flex-*-grow-0	不同的屏幕设备不设置扩展	 
+.flex-*-grow-1	不同的屏幕设备设置扩展	 
+收缩
+.flex-*-shrink-0	不同的屏幕设备不设置收缩	 
+.flex-*-shrink-1	不同的屏幕设备设置收缩	 
+包裹
+.flex-*-nowrap	不同的屏幕设备不设置包裹元素	
+.flex-*-wrap	不同的屏幕设备设置包裹元素	
+.flex-*-wrap-reverse	不同的屏幕设备反转包裹元素	
+内容排列
+.align-content-*-start	根据不同屏幕设备在起始位置堆叠元素	
+.align-content-*-end	根据不同屏幕设备在结束位置堆叠元素	
+.align-content-*-center	根据不同屏幕设备在中间位置堆叠元素	
+.align-content-*-around	根据不同屏幕设备，使用 "around" 堆叠元素	
+.align-content-*-stretch	根据不同屏幕设备，通过伸展元素来堆叠	
+元素对齐
+.align-items-*-start	根据不同屏幕设备，让元素在头部显示在同一行。	
+.align-items-*-end	根据不同屏幕设备，让元素在尾部显示在同一行。	
+.align-items-*-center	根据不同屏幕设备，让元素在中间位置显示在同一行。	
+.align-items-*-baseline	根据不同屏幕设备，让元素在基线上显示在同一行。	
+.align-items-*-stretch	根据不同屏幕设备，让元素延展高度并显示在同一行。	
+单独一个子元素的对齐方式
+.align-self-*-start	据不同屏幕设备，让单独一个子元素显示在头部。	
+.align-self-*-end	据不同屏幕设备，让单独一个子元素显示在尾部	
+.align-self-*-center	据不同屏幕设备，让单独一个子元素显示在居中位置	
+.align-self-*-baseline	据不同屏幕设备，让单独一个子元素显示在基线位置	
+.align-self-*-stretch	据不同屏幕设备，延展一个单独子元素
+
+
+
+

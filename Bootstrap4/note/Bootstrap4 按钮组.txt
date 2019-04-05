@@ -1,0 +1,11 @@
+Bootstrap4 按钮组
+ 将按钮放在同一行上
+ 可以在<div>元素上添加.btn-group类来创建按钮组
+ .btn-group-lg类或.btn-group-sm类设置按钮组的大小
+ .btn-group-vertical 垂直按钮组
+  按钮组按钮内嵌菜单
+      为按钮设置 dropdown-toggle类 和data-toggle="dropdown"属性 
+      再为div设置 .dropdown-menu类 
+      再为a标签设置.dropdown-item类
+ 
+  .caret类    dropdown-toggle-split类用于拆分按钮内嵌的下拉菜单

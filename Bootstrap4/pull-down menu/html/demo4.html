@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>下拉菜单中的选中项与禁用项</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>下拉菜单中的选中项与禁用项</h2>
+   <p>.active类会让下拉菜单选项有选中效果</p>
+   <p>.disabled类会让下拉菜单选项有禁用效果</p>
+   <div class="dropdown">
+   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+     选中与禁用
+   </button>
+   <div class="dropdown-menu">
+ <a class="dropdown-item">link 1</a>
+ <a class="dropdown-item active">选中项</a>
+ <a class="dropdown-item disabled">禁用项</a>
+   </div>
+   </div>
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>排序</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>排序</h1>
+    <p>.order 类可以设置弹性子元素的排序从 
+      .order-1 到 .order-12，数字越低权重越高( .order-1 排在 .order-2 之前)</p>
+   <div class="d-flex bg-secondary text-white">
+      <div class=" p-2 order-3 bg-info">Flex item 1</div>
+      <div class=" p-2 order-1 bg-warning">Flex item 2</div>
+      <div class=" p-2 order-2 bg-primary">Flex item 3</div>
+   </div>
+
+   <p>不使用 .order 实例</p>
+   <div class="d-flex bg-secondary text-white">
+      <div class=" p-2   bg-info">Flex item 1</div>
+      <div class=" p-2   bg-warning">Flex item 2</div>
+      <div class=" p-2   bg-primary">Flex item 3</div>
+   </div>
+  </div>
+</body>
+</html>

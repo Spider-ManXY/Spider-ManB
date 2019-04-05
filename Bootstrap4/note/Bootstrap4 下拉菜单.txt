@@ -1,0 +1,25 @@
+Bootstrap4 下拉菜单
+   .dropdown 类用来指定一个下拉菜单。
+
+   .dropdown-menu 类来设置实际下拉菜单。
+
+   我们可以使用一个按钮或链接来打开下拉菜单， 
+   
+   按钮或链接需要添加 .dropdown-toggle 和 data-toggle="dropdown" 属性。
+
+下拉菜单中的分割线
+   .dropdown-divider 类用于在下拉菜单中创建一个水平的分割线
+
+下拉菜单中的标题
+   .dropdown-header 类用于在下拉菜单中添加标题
+
+下拉菜单中的可用项与禁用项
+  .active类会让下拉菜单选项有选中效果
+  .disabled类会让下拉菜单选项有禁用效果
+
+下拉菜单的定位
+    如果我们想让下拉菜单右对齐，
+    可以在元素上的 .dropdown-menu 类后添加 .dropdown-menu-right 类
+
+指定向上弹出的下拉菜单
+    如果你希望下拉菜单向上弹出，可以将 <div> 元素的 class="dropdown" 替换为 "dropup"

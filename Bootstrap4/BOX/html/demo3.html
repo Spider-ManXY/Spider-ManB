@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>弹出框</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h3>弹出框实例</h3>
+    <p>默认情况下，弹出框在再次点击指定元素后就会关闭</p>
+    <p>data-trigger="focus"鼠标点击元素外部区域来关闭弹出框</p>
+    <p>data-trigger="hover"鼠标移动到元素上显示，移除后消失的效果</p>
+    <a href="#" data-toggle="popover" data-content="弹出框内容" title="弹出框标题" data-placement="left"
+    data-trigger="focus">
+      鼠标点击我这
+    </a>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+    </script>
+</body>
+</html>

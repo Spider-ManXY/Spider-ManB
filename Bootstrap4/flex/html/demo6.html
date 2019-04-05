@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>等宽</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>等宽</h1>
+    <p>.flex-fill 类强制设置各个弹性子元素的宽度是一样的</p>
+   <div class="d-flex bg-secondary text-white">
+      <div class=" p-2  flex-fill bg-info">Flex item 1</div>
+      <div class=" p-2 flex-fill  bg-warning">Flex item 2</div>
+      <div class=" p-2  flex-fill bg-primary">Flex item 3</div>
+   </div>
+
+   <p>不使用 .flex-fill 类实例</p>
+   <div class="d-flex bg-secondary text-white">
+      <div class=" p-2   bg-info">Flex item 1</div>
+      <div class=" p-2   bg-warning">Flex item 2</div>
+      <div class=" p-2   bg-primary">Flex item 3</div>
+   </div>
+  </div>
+</body>
+</html>

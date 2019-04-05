@@ -1,0 +1,30 @@
+Bootstrap4 模态框
+   模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，
+   可以在不离开父窗体的情况下有一些互动。子窗体可提供信息交互等
+
+模态框尺寸
+我们可以通过添加 .modal-sm 类来创建一个小模态框，.modal-lg 类可以创建一个大模态框。
+
+尺寸类放在 <div>元素的 .modal-dialog 类后 
+
+
+Bootstrap4 提示框
+  通过向元素添加 data-toggle="tooltip" 来来创建提示框。
+
+  title 属性的内容为提示框显示的内容
+
+  默认情况下提示框显示在元素上方。
+
+  可以使用 data-placement 属性来设定提示框显示的方向: top, bottom, left 或 right
+
+
+如何创建弹出框
+  通过向元素添加 data-toggle="popover" 来来创建弹出框。
+
+  title 属性的内容为弹出框的标题，data-content 属性显示了弹出框的文本内容
+  
+  可以使用 data-placement 属性来设定弹出框显示的方向: top, bottom, left 或 right
+   
+  默认情况下，弹出框在再次点击指定元素后就会关闭，你可以使用 data-trigger="focus" 属性来设置在鼠标点击元素外部区域来关闭弹出框
+
+  如果你想实现在鼠标移动到元素上显示，移除后消失的效果，可以使用 data-trigger 属性，并设置值为 "hover"

@@ -1,0 +1,45 @@
+Bootstrap4 表格
+   .table 类  基础表格
+   其它表格样式都要结合.table类 基础表格使用 
+   .table-striped 条纹表格
+   <table class="table table-striped">
+   .table-bordered 带边框表格
+   .table-hover 鼠标悬停状态表格
+   .table-dark  黑色背景表格
+   .table-sm    较小的表格
+  
+
+结合使用
+联合使用 .table-dark 和 .table-striped 类可以创建黑色的条纹表格
+    <table class="table table-dark table-striped">
+联合使用 .table-dark 和 .table-hover 类可以设置黑色背景表格的鼠标悬停效果
+    <table class="table table-dark table-hover">
+
+颜色类
+  通过指定意义的颜色类可以为表格的行或者单元格设置颜色
+  .table-primary	蓝色: 指定这是一个重要的操作
+  .table-success	绿色: 指定这是一个允许执行的操作
+  .table-danger	红色: 指定这是可以危险的操作
+  .table-info	浅蓝色: 表示内容已变更
+  .table-warning	橘色: 表示需要注意的操作
+  .table-active	灰色: 用于鼠标悬停效果
+  .table-secondary	灰色: 表示内容不怎么重要
+  .table-light	浅灰色，可以是表格行的背景
+  .table-dark	深灰色，可以是表格行的背景
+表头的颜色 
+  .thead-dark 类用于给表头添加黑色背景 
+  .thead-light 类用于给表头添加灰色背景
+
+响应式表格
+<div class="table-responsive"><table></table></div>
+ .table-responsive 
+ .table-responsive 类用于创建响应式表格：
+ 在屏幕宽度小于 992px 时会创建水平滚动条，
+ 如果可视区域宽度大于 992px 则显示不同效果（没有滚动条）
+ .table-responsive-sm	< 576px
+ .table-responsive-md	< 768px
+ .table-responsive-lg	< 992px
+ .table-responsive-xl	< 1200px
+
+
+

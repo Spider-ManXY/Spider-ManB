@@ -1,0 +1,35 @@
+Bootstrap4 按钮
+ 按钮样式
+ .btn是基本按钮类
+ 后面所有按钮样式都要基于.btn类
+ .btn-primary主要按钮
+ <button type="button" class="btn btn-primary">主要按钮</button>
+ .btn-secondary次要按钮
+ .btn-success成功
+ .btn-info信息
+ .btn-warning警告
+ .btn-danger危险
+ .btn-dark黑色
+ .btn-light浅色
+ .btn-link链接
+
+按钮元素
+ 链接按钮  <a  href="#"  class="btn btn-info" role="button">链接按钮</a>
+ 普通按钮  <button type="button">按钮</button>
+ 文本按钮  <input type="button" value="输入按钮">
+ 提交按钮  <input type="submit"  value="提交按钮">
+
+不同大小的按钮
+ .btn-sm
+ .btn-md
+ .btn-lg
+ 
+块级按钮
+ .btn-block
+<button type="button" class="btn btn-primary btn-block">按钮 1</button>
+
+激活和禁用按钮
+.active 类可以设置按钮是可用的， disabled 属性可以设置按钮是不可点击的。 
+注意 <a> 元素不支持 disabled 属性，
+你可以通过添加 .disabled 类来禁止链接的点击。
+

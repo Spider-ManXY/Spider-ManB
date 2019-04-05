@@ -1,0 +1,9 @@
+向您想要监听的元素（通常是 body）添加 data-spy="scroll" 。
+
+然后添加 data-target 属性，它的值为导航栏的 id 或 class (.navbar)。这样就可以联系上可滚动区域。
+
+注意可滚动项元素上的 id （<div id="section1">） 必须匹配导航栏上的链接选项 （<a href="#section1">)。
+
+可选项data-offset 属性用于计算滚动位置时，距离顶部的偏移像素。 默认为 10 px。
+
+设置相对定位: 使用 data-spy="scroll" 的元素需要将其 CSS position 属性设置为 "relative" 才能起作用

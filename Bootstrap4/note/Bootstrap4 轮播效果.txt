@@ -1,0 +1,14 @@
+轮播使用的类说明
+
+.carousel	创建一个轮播
+.carousel-indicators	为轮播添加一个指示符，就是轮播图底下的一个个小点，轮播的过程可以显示目前是第几张图。
+.carousel-inner	添加要切换的图片
+.carousel-item	指定每个图片的内容
+.carousel-control-prev	添加左侧的按钮，点击会返回上一张。
+.carousel-control-next	添加右侧按钮，点击会切换到下一张。
+.carousel-control-prev-icon	与 .carousel-control-prev 一起使用，设置左侧的按钮
+.carousel-control-next-icon	与 .carousel-control-next 一起使用，设置右侧的按钮
+.slide	切换图片的过渡和动画效果，如果你不需要这样的效果，可以删除这个类
+
+轮播图片上添加描述
+在每个 <div class="carousel-item"> 内添加 <div class="carousel-caption"> 来设置轮播图片的描述文本
